@@ -727,3 +727,7 @@ p {
 
 }
 
+.ion-ios-email, .ion-android-phone-portrait, .ion-android-globe, .ion-social-twitter{
+    line-height: 40px;
+}
+
