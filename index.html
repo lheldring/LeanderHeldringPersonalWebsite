@@ -126,26 +126,21 @@
                     <h1 class="wow fadeInDown" data-wow-delay="0.2s">Working Papers</h1>
                 </div>
                 <div class="col-md-12">
-                                        <!-- Paper Start-->
+                    <!-- Paper Start-->
                     <div class="col-md-12 wow fadeInDown" data-wow-delay="0.2s">
                         <div class="paper-content">
-                            <h1><a href="https://drive.google.com/file/d/1NcixZxVHx58zkV7eGOfSS6jCaJR4x5jJ/view?usp=drive_link"
-                                   target="_blank">American Stories: A Large-Scale Structured Text
-Dataset of Historical U.S. Newspapers</a>
-                                <button class="btn-link cite" data-target="#cite10" data-toggle="modal" title="Cite Me!"
+                            <h1><a href="https://drive.google.com/file/d/1DwWwECZqOSsJU_cW1aAePDnv4bfMix2p/view?usp=sharing"
+                                   target="_blank">Contrastive Entity Coreference and Disambiguation for Historical Texts</a>
+                                <button class="btn-link cite" data-target="#cite11" data-toggle="modal" title="Cite Me!"
                                         type="button">
                                     <ion-icon class="icon" name="quote"></ion-icon>
                                 </button>
                             </h1>
-                            <div class="authors">Melissa Dell, Jacob Carlson, Tom Bryan, Emily Silcock, Abhishek Arora, Zejiang Shen, Luca D’Amico-Wong, Quan Le, Pablo Querubin, <span class="author">Leander Heldring</span><br>
-                                <a href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories"
-                                   target="_blank">Dataset </a><br>0
-                                <a href="https://github.com/dell-research-harvard/americanstories"
-                                   target="_blank">Github - contains demo notebooks</a><br>
+                            <div class="authors"><span class="author">Abhishek Arora, Emily Silcock, Leander Heldring, Melissa Dell</span><br>
                             </div>
-                            <div class="year">2023, forthcoming NeurIPS (Benchmarks and Datasets Track),</div>
+                            <div class="year">June 2024</div>
                             <br>
-                            <p> Existing full text datasets of U.S. public domain newspapers do not recognize the often complex layouts of newspaper scans, and as a result the digitized content scrambles texts from articles, headlines, captions, advertisements, and other layout regions. OCR quality can also be low. This study develops a novel, deep learning pipeline for extracting full article texts from newspaper images and applies it to the nearly 20 million scans in Library of Congress’s public domain Chronicling America collection. The pipeline includes layout detection, legibility classification, custom OCR, and association of article texts spanning multiple bounding boxes. To achieve high scalability, it is built with efficient architectures designed for mobile phones. The resulting American Stories dataset provides high quality data that could be used for pre-training a large language model to achieve better understanding of historical English and historical world knowledge. The dataset could also be added to the external database of a retrieval-augmented language model to make historical information - ranging from interpretations of political events to minutiae about the lives of people’s ancestors - more widely accessible. Furthermore, structured article texts facilitate using transformer-based methods for popular social science applications like topic classification, detection of reproduced content, and news story clustering. Finally, American Stories provides a massive silver quality dataset for innovating multimodal layout analysis models and other multimodal applications. </p>
+                            <p> Massive-scale historical document collections are crucial for social science research. Despite increasing digitization, these documents typically lack unique cross-document identifiers for individuals mentioned within the texts, as well as individual identifiers from external knowledgebases like Wikipedia/Wikidata. Existing entity disambiguation methods often fall short in accuracy for historical documents, which are replete with individuals not remembered in contemporary knowledgebases. This study makes three key contributions to improve cross-document coreference resolution and disambiguation in historical texts: a massive-scale training dataset replete with hard negatives - that sources over 190 million entity pairs from Wikipedia contexts and disambiguation pages - high-quality evaluation data from hand-labeled historical newswire articles, and trained models evaluated on this historical benchmark. We contrastively train bi-encoder models for coreferencing and disambiguating individuals in historical texts, achieving accurate, scalable performance that identifies out-of-knowledgebase individuals. Our approach significantly surpasses other entity disambiguation models on our historical newswire benchmark. Our models also demonstrate competitive performance on modern entity disambiguation benchmarks, particularly certain news disambiguation datasets. </p>
                         </div>
                     </div>
                     <!-- Paper End-->
@@ -209,6 +204,29 @@ Dataset of Historical U.S. Newspapers</a>
                     <br><br>
                 </div>
                 <div class="col-md-12">
+                               <!-- Paper Start-->
+                    <div class="col-md-12 wow fadeInDown" data-wow-delay="0.2s">
+                        <div class="paper-content">
+                            <h1><a href="https://drive.google.com/file/d/1NcixZxVHx58zkV7eGOfSS6jCaJR4x5jJ/view?usp=drive_link"
+                                   target="_blank">American Stories: A Large-Scale Structured Text
+Dataset of Historical U.S. Newspapers</a>
+                                <button class="btn-link cite" data-target="#cite10" data-toggle="modal" title="Cite Me!"
+                                        type="button">
+                                    <ion-icon class="icon" name="quote"></ion-icon>
+                                </button>
+                            </h1>
+                            <div class="authors">Melissa Dell, Jacob Carlson, Tom Bryan, Emily Silcock, Abhishek Arora, Zejiang Shen, Luca D’Amico-Wong, Quan Le, Pablo Querubin, <span class="author">Leander Heldring</span><br>
+                                <a href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories"
+                                   target="_blank">Dataset </a><br>0
+                                <a href="https://github.com/dell-research-harvard/americanstories"
+                                   target="_blank">Github - contains demo notebooks</a><br>
+                            </div>
+                            <div class="year">2023, NeurIPS (Benchmarks and Datasets Track),</div>
+                            <br>
+                            <p> Existing full text datasets of U.S. public domain newspapers do not recognize the often complex layouts of newspaper scans, and as a result the digitized content scrambles texts from articles, headlines, captions, advertisements, and other layout regions. OCR quality can also be low. This study develops a novel, deep learning pipeline for extracting full article texts from newspaper images and applies it to the nearly 20 million scans in Library of Congress’s public domain Chronicling America collection. The pipeline includes layout detection, legibility classification, custom OCR, and association of article texts spanning multiple bounding boxes. To achieve high scalability, it is built with efficient architectures designed for mobile phones. The resulting American Stories dataset provides high quality data that could be used for pre-training a large language model to achieve better understanding of historical English and historical world knowledge. The dataset could also be added to the external database of a retrieval-augmented language model to make historical information - ranging from interpretations of political events to minutiae about the lives of people’s ancestors - more widely accessible. Furthermore, structured article texts facilitate using transformer-based methods for popular social science applications like topic classification, detection of reproduced content, and news story clustering. Finally, American Stories provides a massive silver quality dataset for innovating multimodal layout analysis models and other multimodal applications. </p>
+                        </div>
+                    </div>
+                    <!-- Paper End-->
                                         <!-- Paper Start-->
                     <div class="col-md-12 wow fadeInDown" data-wow-delay="0.2s">
                         <div class="paper-content">
@@ -754,12 +772,35 @@ year = {2022}<br>
 Dataset of Historical U.S. Newspapers</h4>
             </div>
             <div class="modal-body">
-                <p>@unpublished{heldring2020government,<br>
+                <p>@article{heldring2023americanstories,<br>
                     author = {Dell, Melissa and Carlson, Jacob and Bryan, Tom and Silcock, Emily and Arora, Abhisheka and Shen, Zejiang and D’Amico-Wong, Luca and Le, Quan and Querubin, Pablo and Heldring, Leander},<br>
                     title = {American Stories: A Large-Scale Structured Text
 Dataset of Historical U.S. Newspapers},<br>
-                    note = {Working paper, https://arxiv.org/pdf/2308.12477.pdf},<br>
+                    journal = {NeurIPS (Benchmarks and Datasets Track)},<br>
                     year = {2023}<br>
+                    }</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary pull-left" data-dismiss="modal" type="button">× Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal End -->
+<!-- Modal Start -->
+<div class="modal fade" id="cite11" role="dialog" style="display: none;">
+    <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Contrastive Entity Coreference and Disambiguation for Historical Texts</h4>
+            </div>
+            <div class="modal-body">
+                <p>@unpublished{heldring2024entity,<br>
+                    author = {Arora, Abhishek and Silcock, Emily and Heldring, Leander and Dell, Melissa},<br>
+                    title = {Contrastive Entity Coreference and Disambiguation for Historical Texts},<br>
+                    journal = {Working paper, https://arxiv.org/abs/2406.15576},<br>
+                    year = {2024}<br>
                     }</p>
             </div>
             <div class="modal-footer">
